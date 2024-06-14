@@ -18,7 +18,7 @@ urls_limit = 15
 open_sort = True
 response_time_weight = 0.5
 resolution_weight = 0.5
-recent_days = 10
+recent_days = 30
 ipv_type = "ipv4"
 domain_blacklist = ["epg.pw"]
 url_keywords_blacklist = []
@@ -29,4 +29,4 @@ subscribe_urls = [
     "https://m3u.ibert.me/txt/j_iptv.txt",
 ]
 open_multicast = True
-region_list = ["广东"]
+region_list = ["all"]
