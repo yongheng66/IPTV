@@ -2,12 +2,10 @@ name: 'Update schedule'
 
 on:
   schedule:
-    - cron: '0 22,10 * * *'
+    - cron: '0 9 * * *'
   workflow_dispatch:
     branches:
       - master
-      - dev
-      - gd
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
